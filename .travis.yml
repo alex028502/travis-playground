@@ -1,0 +1,9 @@
+language: node_js
+
+
+before_script:
+  - node --version || echo "no node installed"
+  - php --version || echo "no php installed"
+  - ruby --version || echo "no ruby installed"
+  - python --version || echo "no python installed"
+
