@@ -6,4 +6,8 @@ before_script:
   - php --version || echo "no php installed"
   - ruby --version || echo "no ruby installed"
   - python --version || echo "no python installed"
-
+  - rvm --version || echo "no rvm"
+  - nvm --version || echo "no nvm"
+  - pip --version || echo "no pip"
+  - bundle --version || echo "no bundle"
+  
